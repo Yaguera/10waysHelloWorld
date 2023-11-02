@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 16px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: aqua;
+    width: 400px;
+}
+
+li {
+    margin: 8px 0;
+    list-style: none;
+    padding: 4px 0;
+    border-bottom: 8px solid pink;
+}
+
+li button {
+    padding: 8px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#butao9 {
+    cursor: none;
+}
+
+#butao9:hover {
+    scale: 1.2;
+    background-color: lightblue;
+    color: green;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: green;
+}
