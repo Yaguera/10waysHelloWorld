@@ -28,6 +28,19 @@ li {
     border-bottom: 8px solid pink;
 }
 
+#innerHTML {
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bold;
+}
+
+#loop {
+    text-transform: lowercase;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
 li button {
     padding: 8px;
     border: none;
